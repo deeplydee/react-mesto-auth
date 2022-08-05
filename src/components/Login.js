@@ -23,7 +23,7 @@ function Login({ onLogin }) {
   return (
     <section className="login">
       <h1 className="login__title">Вход</h1>
-      <form className="login__form" onSubmit={handleSubmit}>
+      <form className="login__form" name="login" onSubmit={handleSubmit}>
         <input
           className="login__data-input login__data-input_type_login-email"
           type="text"
